@@ -8,7 +8,7 @@ pub mod gemini_url;
 pub mod handler_context;
 pub mod handlers;
 pub mod http_client;
-pub(crate) mod json_canonical;
+pub mod json_canonical;
 pub mod metrics;
 pub mod model_mapper;
 pub mod provider_router;
@@ -22,7 +22,7 @@ pub mod switch_lock;
 pub mod thinking_budget_rectifier;
 pub mod thinking_optimizer;
 pub mod thinking_rectifier;
-pub(crate) mod tool_media;
+pub mod tool_media;
 pub mod types;
 pub mod usage;
 

@@ -33,7 +33,7 @@ mod provider;
 mod provider_defaults;
 mod provider_preset_models;
 mod provider_preset_sponsors;
-mod proxy;
+pub mod proxy;
 mod services;
 mod session_manager;
 mod settings;
